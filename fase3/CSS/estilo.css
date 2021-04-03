@@ -1,0 +1,98 @@
+h1 {
+    color: whitesmoke;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    text-align: center;    
+}
+
+h2 {
+    color: rgb(233, 136, 10);
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    color: rgb(10, 32, 233);
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;    
+}
+
+.p1{
+    color: whitesmoke;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    text-align: center;    
+}
+
+nav {
+    color: rgb(0, 0, 0);
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 900px 300px;
+    grid-template-rows: 100px 1fr 100px;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Cabecera Cabecera Cabecera"
+      "Menu Contenido Aside"
+      "Menu Contenido Aside"
+      "Menu Contenido Aside"
+      "Pie-de-Pagina Pie-de-Pagina Pie-de-Pagina";
+}
+  
+.Cabecera {
+      
+    grid-area: Cabecera; 
+    background-color: rgb(51, 60, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.Menu { 
+    grid-area: Menu;
+    background-color: rgb(248, 164, 9);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+  
+.Contenido { 
+    grid-area: Contenido;   
+    background-color: whitesmoke;
+}
+  
+.Pie-de-Pagina { 
+    grid-area: Pie-de-Pagina; 
+    background-color: rgb(51, 60, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.Aside { 
+    grid-area: Aside; 
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+
+.imagen {
+	object-fit: fill;
+    text-align: center; 
+}
+
+
+
+  
