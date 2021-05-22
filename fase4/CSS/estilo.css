@@ -63,7 +63,7 @@ nav {
     background-color: rgb(248, 164, 9);
     display: flex;
     justify-content: center;
-    align-items: left;
+    align-items: left;      /*error*/ 
 }
   
 .Contenido { 
@@ -77,7 +77,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative
+    position: relative;
 }
 
 .Aside { 
@@ -85,7 +85,7 @@ nav {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    align-items: right;
+    align-items: right;     /*error*/ 
 }
 
 .imagen {
